@@ -44,7 +44,7 @@ function scan(nameElem, resultElem, hostport, serviceName, uriPath) {
 function portscan() {
   scan(document.getElementById("host1name"), document.getElementById("host1result"), "localhost:8000", "web server on 8000", "");
   scan(document.getElementById("host2name"), document.getElementById("host2result"), "localhost:8080", "web server on 8080", "");
-  scan(document.getElementById("host3name"), document.getElementById("host3result"), "staff.yandex-team.ru:443", "staff", "");
-  scan(document.getElementById("host4name"), document.getElementById("host4result"), "staff1.yandex-team.ru:443", "staff", "");
-  scan(document.getElementById("host5name"), document.getElementById("host5result"), "wiki.yandex-team.ru:443", "wiki", "");
+  //scan(document.getElementById("host3name"), document.getElementById("host3result"), "staff.yandex-team.ru:443", "staff", "");
+  //scan(document.getElementById("host4name"), document.getElementById("host4result"), "staff1.yandex-team.ru:443", "staff", "");
+  //scan(document.getElementById("host5name"), document.getElementById("host5result"), "wiki.yandex-team.ru:443", "wiki", "");
 }
